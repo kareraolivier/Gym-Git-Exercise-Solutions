@@ -1,7 +1,5 @@
 # Gym Git Exercise Solutions
 
-
-
 karer@DESKTOP-ALDB193 MINGW64 /e/thegym/week2 (main)
 $ mkdir project
 
@@ -386,6 +384,33 @@ $ ^C
 karer@DESKTOP-ALDB193 MINGW64 /e/thegym/week2/project (ft/bundle-2)
 $ git push --set-upstream origin ft/bundle-2
 Enumerating objects: 5, done.
+  
+  
+  week 3
+  
+E:\thegym\week2\project>git branch
+dev
+
+- ft/bundle-2
+  main
+
+E:\thegym\week2\project>git checkout -b ft/service-redesign
+Switched to a new branch 'ft/service-redesign'
+
+E:\thegym\week2\project>git branch
+dev
+ft/bundle-2
+
+- ft/service-redesign
+  main
+
+  karer@DESKTOP-ALDB193 MINGW64 /e/thegym/week2/project (ft/service-redesign)
+  $ nanp service.html
+  bash: nanp: command not found
+
+karer@DESKTOP-ALDB193 MINGW64 /e/thegym/week2/project (ft/service-redesign)
+$ nano service.html
+
 Counting objects: 100% (5/5), done.
 Delta compression using up to 4 threads
 Compressing objects: 100% (4/4), done.
@@ -398,3 +423,4 @@ remote:
 To https://github.com/kareraolivier/the-gym-git-basics.git
  * [new branch]      ft/bundle-2 -> ft/bundle-2
 branch 'ft/bundle-2' set up to track 'origin/ft/bundle-2'.
+
